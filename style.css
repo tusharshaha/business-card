@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    background-color: rgba(10, 10, 100, 0.342);
+}
+.business-card{
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-image: url('https://i.pinimg.com/564x/1c/99/4f/1c994fcd5522bb39509f2d67178d9ba3.jpg');
+    background-color: none;
+    width: 720px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 40px 0px;
+    margin-top: 100px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+.card-img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    border: 5px solid rgb(0, 129, 172);
+    overflow: hidden;
+    width: 170px;
+    height: 170px;
+}
+.card-img img{
+    width: 100%;
+}
+.card-details{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 15px;
+}
+.card-info{
+    color: rgb(43, 126, 153);
+}
+.card-info p{
+    margin-bottom: 5px;
+    font-weight: 500;
+}
